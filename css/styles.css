@@ -462,6 +462,7 @@ a {
 .footer-fon {
   background-color: #2e2f42;
   width: auto;
+  height: auto;
   display: flex;
   gap: 120px;
   padding: 100px 0;
