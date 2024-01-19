@@ -465,25 +465,43 @@
           </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
-        <form class="modal-form">
-          <label class="modal-lable">
-            Name
-            <input class="modal-input" type="text" name="username" />
-          </label>
-          <label class="modal-lable">
-            Phone
-            <input class="modal-input" type="tel" name="userphone" />
-          </label>
-          <label class="modal-lable">
-            Email
-            <input class="modal-input" type="email" name="usermail" />
-          </label>
-          <label class="modal-lable">
-            Comment
-            <textarea class="modal-comment" name="Comment" rows="10">
-            </textarea>
-          </label>
-        </form>
+        <div class="modal-after-title">
+          <form class="modal-form">
+            <label class="modal-lable">
+              Name
+              <input class="modal-input" type="text" name="username" />
+            </label>
+            <label class="modal-lable">
+              Phone
+              <input class="modal-input" type="tel" name="userphone" />
+            </label>
+            <label class="modal-lable">
+              Email
+              <input class="modal-input" type="email" name="usermail" />
+            </label>
+            <label class="modal-lable">
+              Comment
+              <textarea
+                class="modal-comment"
+                name="Comment"
+                rows="3 "
+                placeholder="Text input"
+              >
+              </textarea>
+            </label>
+          </form>
+          <form>
+            <label class="modal-check-label">
+              <input
+                class="modal-check"
+                type="checkbox"
+                name="accept"
+                value="I accept "
+              />
+              I accept the terms and conditions of the Privacy Policy
+            </label>
+          </form>
+        </div>
       </div>
     </div>
   </body>
