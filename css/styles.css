@@ -726,7 +726,19 @@ a {
   line-height: 14px; /* 116.667% */
   letter-spacing: 0.48px;
   padding-left: 48px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
+
 .modal-check-label {
   display: flex;
   padding-top: 16px;
