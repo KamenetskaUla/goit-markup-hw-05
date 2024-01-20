@@ -770,7 +770,7 @@ input[type="checkbox"]:checked {
 .submit-btn {
   display: block;
   justify-content: center;
-  margin: 0;
+  
   margin-bottom: 24px;
   min-width: 169px 
    height: 56px
@@ -783,9 +783,9 @@ input[type="checkbox"]:checked {
   
    color: #ffffff;
 cursor: pointer;
-  padding: 16px 32px;
+ 
   align-items: flex-start;
-  gap: 10px;
+  
   border-radius: 4px;
   background-color: #4d5ae5;
   border: none; 
