@@ -682,6 +682,10 @@ a {
 .modal-icon-input:focus {
   fill: #4d5ae5;
 }
+.modal-input:focus + svg {
+  fill: #4d5ae5;
+}
+
 .modal-form-comment {
   margin-bottom: 16px;
 }
@@ -733,11 +737,12 @@ a {
   text-decoration-line: underline;
   margin: 0;
 }
-.modal-check-lable:focus + svg {
+.modal-check:focus + svg {
   fill: #4d5ae5;
 }
 
 .galka {
+  display: inline-flex;
   border: 1px solid rgba(46, 47, 66, 0.4);
   width: 16px;
   height: 16px;
@@ -745,7 +750,7 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
+
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -756,7 +761,7 @@ input[type="checkbox"]:checked + label span {
   fill: #f4f4fd;
 }
 .modal-check-btn {
-  margin: auto;
+  margin-bottom: 24px;
   display: flex;
   gap: 4px;
 }
@@ -770,7 +775,7 @@ input[type="checkbox"]:checked + label span {
   justify-content: center;
 
   margin-bottom: 24px;
-  width: 169px;
+  min-width: 169px;
   height: auto;
 
   font-family: "Roboto", sans-serif;
