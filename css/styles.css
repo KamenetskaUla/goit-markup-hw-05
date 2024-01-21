@@ -464,7 +464,7 @@ a {
   width: auto;
   height: auto;
   display: flex;
-  gap: 120px;
+  gap: auto;
   padding: 100px 0;
   padding-left: 156px;
   align-items: baseline;
@@ -542,11 +542,15 @@ a {
 /*-------Footer-form---------*/
 
 .footer-form {
+  margin-left: 80px;
   display: flex;
   flex-direction: column;
+  align-items: start;
+  gap: 16px;
 }
 
 .foot-form-text {
+  
   color: #fff;
   font-family: Roboto;
   font-size: 16px;
