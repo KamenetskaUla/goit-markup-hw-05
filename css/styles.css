@@ -581,7 +581,7 @@ placeholder {
 .foot-form-btn {
   color: #fff;
   text-align: center;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -597,9 +597,13 @@ placeholder {
   width: 165px;
   height: 40px;
   outline: transparent;
+  cursor: pointer;
+  min-width: 165px; 
+  border: none; 
 }
 .svgfoot {
   fill: #ffffff;
+  margin-left: 16px; 
 }
 
 /*------Modal-----*/
