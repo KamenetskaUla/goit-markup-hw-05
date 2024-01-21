@@ -723,9 +723,6 @@ placeholder {
 }
 
 .modal-check-label {
- 
-
-
   padding-bottom: 0;
   font-family: Roboto;
   font-size: 12px;
@@ -767,7 +764,6 @@ input[type="checkbox"]:checked + label span {
   gap: 4px;
 }
 
-}
 .policy {
   color: #4d5ae5;
   margin-left: 3px;
