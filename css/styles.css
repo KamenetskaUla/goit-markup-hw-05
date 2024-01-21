@@ -737,14 +737,10 @@ a {
   text-decoration-line: underline;
   margin: 0;
 }
-.modal-content .modal-form-input:focus + svg {
+.modal-check-lable:focus + svg {
   fill: #4d5ae5;
 }
-input[type="checkbox"]:checked + label span {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-}
+
 .galka {
   border: 1px solid rgba(46, 47, 66, 0.4);
   width: 16px;
@@ -758,7 +754,7 @@ input[type="checkbox"]:checked + label span {
   justify-content: center;
   fill: transparent;
 }
-input[type="checkbox"]:checked {
+input[type="checkbox"]:checked + label span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
