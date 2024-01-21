@@ -544,37 +544,39 @@ a {
 .footer-form {
   display: flex;
 }
-.sub-email {
-  display: flex;
-  flex-direction: column;
-}
+
 .foot-form-text {
   color: #fff;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 1.5; /* 150% */
   margin-bottom: 16px;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+.foot-form-mail {
+  display: flex;
+  gap: 24px;
+}
+.foot-label {
 }
 .foot-email {
   border-radius: 4px;
   border: 1px solid #fff;
-  background-color: inherit;
+  background-color: transparent;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   width: 264px;
   height: 40px;
-}
-:placeholder-shown {
-  padding: 8px 212px 8px 16px;
-  color: #fff;
-  font-family: Roboto;
   font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 200% */
-  letter-spacing: 0.48px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  color: #fff;
+}
+placeholder {
+ color #ffffff; 
 }
 .foot-form-btn {
   color: #fff;
