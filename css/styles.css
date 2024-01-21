@@ -543,6 +543,7 @@ a {
 
 .footer-form {
   display: flex;
+  flex-direction: column;
 }
 
 .foot-form-text {
