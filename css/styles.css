@@ -690,7 +690,7 @@ a {
 }
 .modal-comment {
   width: 100%;
-  height: auto;
+  height: 120px;
   margin-bottom: 16px;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -723,7 +723,8 @@ placeholder {
 }
 
 .modal-check-label {
-  display: flex;
+ 
+
 
   padding-bottom: 0;
   font-family: Roboto;
@@ -765,10 +766,11 @@ input[type="checkbox"]:checked + label span {
   display: flex;
   gap: 4px;
 }
-.icon-policy {
+
 }
 .policy {
   color: #4d5ae5;
+  margin-left: 3px;
 }
 .submit-btn {
   display: block;
